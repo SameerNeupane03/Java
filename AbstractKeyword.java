@@ -2,6 +2,7 @@ abstract class Vehicle{
        private String vehicleName;
        private int vehicleMileage;
 
+       //instance initialization block
        {
           vehicleName = "Fortuner";
           vehicleMileage = 10;
