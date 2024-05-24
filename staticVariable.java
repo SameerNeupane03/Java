@@ -24,10 +24,9 @@ public class staticVariable {
      depositerFirst.showDepositerDetails();
 
      Depositer secondDepositer = new Depositer();
-     secondDepositer.setDepositerDetails("Sijan Kaucha", 20, 39999, 7.6);
+     secondDepositer.setDepositerDetails("Sijan Kaucha", 20, 39999, 6.9);
      secondDepositer.showDepositerDetails();
 
-                                    // Static member variable is not destroyed so it updates the latest value of interest rate 7.6% rather than printing 6.9%
      depositerFirst.showDepositerDetails();
     }
 }
